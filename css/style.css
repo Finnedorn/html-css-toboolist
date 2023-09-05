@@ -109,3 +109,15 @@ nav {
 }
 
 /* list */
+
+.ul-task {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+ }
+
+ li {
+    list-style: none;
+    font-size: 0.5;
+ }
+
