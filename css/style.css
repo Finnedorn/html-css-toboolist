@@ -52,6 +52,7 @@ header {
 h1 {
     display: inline-block;
     font-size: 3.5em;
+    vertical-align: middle;
 }
 
 /* macroicon-01 */
@@ -110,14 +111,39 @@ nav {
 
 /* list */
 
-.ul-task {
+.task {
     font-size: 1.5em;
     font-weight: bold;
     text-align: left;
+    color: #474747;
  }
 
  li {
     list-style: none;
-    font-size: 0.5;
+    font-size: 1em;
+    color: #474747;
+    display: inline-block;
+    margin-right: 10px;
  }
 
+ .checkmrks {
+    font-size: 0.5em;
+    display: inline-block;
+    color: #64c0a9;
+    border: 1px solid #64c0a9;
+    padding: 3px 6px;
+    border-radius: 50%;
+    margin-right: 10px;
+ }
+
+ .bubbles {
+    font-size: 0.8em;
+    display: inline-block;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 15px;
+ }
+
+ .blue-icon {
+    background-color: #47adf1;
+ }
