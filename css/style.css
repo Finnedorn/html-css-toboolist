@@ -1,0 +1,53 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* palette 
+
+#ffffff-bg-white
+#f6f8f9-bg-grey
+
+#47adf1-blue-icon
+#9c72e4-purple-icon
+#64c0a9-green-icon
+#f29e33-orange-icon
+#d863a1-pink-icon
+#b0c926-light-green-icon
+
+#eb564d-red-marker
+#64c0a9-green-marker
+*/
+
+/* background */
+
+body {
+    width: 100%;
+   background-color: #f6f8f9;
+   font-size: 20px; 
+}
+
+header {
+    background-color: #ffffff;
+}
+
+.logo-div {
+    padding: 20px;
+    margin-left: 40px;
+    
+}
+
+#toboolist-logo {
+    width: 80px;
+    vertical-align: middle;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 3.5em;
+}
