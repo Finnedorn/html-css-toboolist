@@ -64,7 +64,7 @@ h1 {
     margin-top: 3%;
     padding-top: 1%;
     padding-bottom: 0.2%;
-    padding-left: 5%;
+    padding-left: 3%;
     padding-right: 5%;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
@@ -103,10 +103,12 @@ nav {
     margin: auto;
     background-color: #ffffff;
     margin-top: 0.15%;
-    padding-top: 1%;
+    padding-top: 2%;
     padding-bottom: 0.2%;
-    padding-left: 5%;
+    padding-left: 3%;
     padding-right: 5%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 /* list */
@@ -172,4 +174,12 @@ li {
 
 .orange-icon {
     background-color: #f29e33;
+}
+
+.pink-icon {
+    background-color: #d863a1;
+}
+
+.light-green-icon{
+    background-color: #b0c926;
 }
